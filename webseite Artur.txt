@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elektrodienst Dylong</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77a6d4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: url('your-image.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        #newsletter {
+            padding: 15px;
+            color: #fff;
+            background: #333;
+        }
+        #newsletter h1 {
+            float: left;
+        }
+        #newsletter form {
+            float: right;
+            margin-top: 15px;
+        }
+        #newsletter input[type="email"] {
+            padding: 4px;
+            height: 25px;
+            width: 250px;
+        }
+        #newsletter input[type="submit"] {
+            height: 35px;
+            background: #e8491d;
+            border: 0;
+            padding: 0 20px 0 20px;
+            color: #fff;
+        }
+        .main-content {
+            padding: 20px;
+            background: #fff;
+        }
+        .main-content h2 {
+            text-align: center;
+        }
+        .main-content p {
+            text-align: justify;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Elektrodienst Dylong</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Leistungen</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Ihr Partner für Elektroinstallationen</h1>
+            <p>Planung, Ausführung und Wartung aus einer Hand</p>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>Newsletter Anmeldung</h1>
+            <form action="newsletter.php" method="POST">
+                <input type="email" placeholder="Email eingeben...">
+                <input type="submit" value="Abonnieren">
+            </form>
+        </div>
+    </section>
+
+    <section class="main-content">
+        <div class="container">
+            <h2>Über uns</h2>
+            <p>Wir sind Ihr verlässlicher Partner für alle Anliegen rund um Elektroinstallationen, Gebäudeleittechnik, EDV-Netzwerktechnik, Fernmeldetechnik sowie Überprüfungen nach DGUV Vors. T3 und Ex-Schutz nach §14 und §15 BetrSichV. Unsere Experten kümmern sich ebenfalls um Reparaturen und Wartungen.</p>
+            <h2 id="services">Unsere Leistungen</h2>
+            <ul>
+                <li>Elektroinstallation</li>
+                <li>Gebäudeleittechnik</li>
+                <li>EDV-Netzwerktechnik</li>
+                <li>Fernmeldetechnik</li>
+                <li>Überprüfungen nach DGUV Vorschrift 3</li>
+                <li>Überprüfungen Ex-Schutz nach §14 und §15 BetrSichV</li>
+                <li>Reparatur und Wartung</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>Elektrodienst Dylong, Schütterwälder Str. 16, 01458 Ottendorf-Okrilla | Telefon: 035205 / 703222 | Fax: 035205 / 703223 | Handy: 0173 / 8066604 | E-Mail: arthur.dylong@online.de</p>
+        <p>Bankverbindung: Commerzbank Dresden | IBAN: DE 19 850 400 000 200 436400 | BIC: COBADEFF850</p>
+        <p>&copy; 2024 Elektrodienst Dylong. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
